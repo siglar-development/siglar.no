@@ -27,22 +27,6 @@
 				style="width:100%;padding-bottom:120px;padding-top:100px"
 				class="text-center"
 			>
-				<button
-					@click="$router.push('/')"
-					class="duration-300 transition-shadow ease-linear rounded mr-3 p-3 bg-slate-200 hover:drop-shadow-lg drop-shadow"
-				>
-					Home
-				</button> <button
-					@click="$router.push('/about')"
-					class="duration-300 transition-shadow ease-linear rounded mr-3 p-3 bg-slate-200 hover:drop-shadow-lg drop-shadow"
-				>
-					About
-				</button><button
-					@click="$router.push('/contact')"
-					class="rounded p-3 bg-purple-400 from-purple-500 bg-gradient-to-br hover:bg-purple-600 hover:from-purple-600 text-white duration-300 transition hover:drop-shadow-lg drop-shadow"
-				>
-					Contact ⇾
-				</button>
 			</section>
 		</main>
 	</div>

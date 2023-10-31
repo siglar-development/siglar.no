@@ -5,26 +5,23 @@ import {
 
 const routes = [{
         path: '/',
-        component: () => import('@/views/Home.vue')
+        component: () => import('@/views/Hjem.vue')
     },
     {
-        path: '/about',
-        component: () => import('@/views/About.vue')
+        path: '/design',
+        component: () => import('@/views/Design.vue')
     },
     {
-        path: '/contact',
-        component: () => import('@/views/Contact.vue')
+        path: '/utvikling',
+        component: () => import('@/views/Utvikling.vue')
     },
     {
-        path: '/profile',
-        component: () => import('@/views/Profile.vue')
+        path: '/okonomi',
+        component: () => import('@/views/Okonomi.vue')
     },
     {
-        path: '/more',
-        children: [{
-            path: 'secret',
-            component: () => import('@/views/Secret.vue')
-        }]
+        path: '/kontakt',
+        component: () => import('@/views/Kontakt.vue')
     }
 ]
 

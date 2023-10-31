@@ -24,40 +24,27 @@
 				/> </template>
 			<li :active="$route.path === '/'">
 				<router-link to="/">
-					Home
+					Hjem
 				</router-link>
 			</li>
-			<li :active="$route.path.includes('/about')">
-				<router-link to="/about">
-					About
+			<li :active="$route.path.includes('/design')">
+				<router-link to="/design">
+					Design
 				</router-link>
 			</li>
-			<li :active="$route.path.includes('/more')">
-				<span>
-					More
-				</span>
-				<ul>
-					<li>List item 1</li>
-					<li :active="$route.path.includes('/more/secret')">
-						List item 2
-						<ul>
-							<li :active="$route.path.includes('/more/secret')">
-								<router-link to="/more/secret">
-									Secret Content
-								</router-link>
-							</li>
-							<li>
-								List item 2
-							</li>
-							<li>List item 3</li>
-						</ul>
-					</li>
-					<li>List item 3</li>
-				</ul>
+			<li :active="$route.path.includes('/utvikling')">
+				<router-link to="/utvikling">
+					Utvikling
+				</router-link>
 			</li>
-			<li :active="$route.path.includes('/contact')">
-				<router-link to="/contact">
-					Contact
+			<li :active="$route.path.includes('/okonomi')">
+				<router-link to="/okonomi">
+					Økonomi
+				</router-link>
+			</li>
+			<li :active="$route.path.includes('/kontakt')">
+				<router-link to="/kontakt">
+					Kontakt
 				</router-link>
 			</li><template v-slot:end-before=""></template>
 		</TopMenu>

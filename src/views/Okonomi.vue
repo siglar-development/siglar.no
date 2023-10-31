@@ -2,7 +2,7 @@
 	<div class="bg-slate-50 py-6">
 		<header>
 			<h1 class="text-6xl mt-12 mb-6">
-				Secret
+				Økonomi
 			</h1>
 		</header>
 		<main>
@@ -11,10 +11,7 @@
 				class="max-w-2xl container"
 			>
 				<h2 class="pb-6">
-					This is a secret
-				</h2>
-				<h2 class="pb-6">
-					Mathias er sykt rå i kran
+					Your Company
 				</h2>
 				<address>
 					<label for="">Address</label><br /><a
