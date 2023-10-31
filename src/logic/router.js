@@ -5,7 +5,7 @@ import {
 
 const routes = [{
         path: '/',
-        component: () => import('@/views/Hjem.vue')
+        component: () => import('@/views/Kontakt.vue')
     },
     {
         path: '/design',
@@ -18,10 +18,6 @@ const routes = [{
     {
         path: '/okonomi',
         component: () => import('@/views/Okonomi.vue')
-    },
-    {
-        path: '/kontakt',
-        component: () => import('@/views/Kontakt.vue')
     }
 ]
 

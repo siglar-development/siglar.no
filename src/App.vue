@@ -39,15 +39,15 @@
 					Økonomi
 				</router-link>
 			</li>
-			<li :active="$route.path.includes('/kontakt')">
-				<router-link to="/kontakt">
+			<li :active="$route.path === '/'">
+				<router-link to="/">
 					Kontakt
 				</router-link>
 			</li><template v-slot:end-before=""></template>
 		</TopMenu>
 	</div>
 	<div
-		class="max-w-screen-2xl mx-auto max-w-screen sm:flex-row flex-col w-full relative flex"
+		class="max-w-screen-2xl mx-auto sm:flex-row flex-col w-full relative flex"
 		style="position:relative"
 	>
 		<router-view
@@ -57,13 +57,29 @@
 		/>
 	</div>
 	<footer
-		class="justify-center items-center inline-flex p-6 w-full"
+		class="inline-flex p-6 w-full"
 		:style="{ 'background-color': darkmode ? 'rgba(25,25,25,1)' : 'rgba(170,180,190,1)', 'color': darkmode ? '#ccc' : '#444', 'box-shadow': darkmode ? '0 50vh 0 50vh rgba(75,75,75,1)' : '0 50vh 0 50vh rgba(240,240,240,1)' }"
 		style="height:200px"
 	>
-		<h3 class="text-center">
-			Footer
-		</h3>
+		<div class="max-w-screen-2xl w-full mx-auto ">
+			<address class="mb-12 mx-auto text-center">
+				<span class="block">
+					Org. nr. 912000621
+				</span><label for="">
+					Krabberødveien 47, 3960 Stathelle
+				</label><br /><a
+					href="mailto: kontakt@siglar.no"
+					target="_blank"
+				>
+					kontakt@siglar.no
+				</a><br /><a
+					href="tel: +47 906 10 570"
+					target="_blank"
+				>
+					+47 906 10 570
+				</a>
+			</address>
+		</div>
 	</footer>
 </template>
 <script>
