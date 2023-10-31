@@ -18,11 +18,15 @@
 				style="margin:auto"
 				class="container"
 			>
-				<h2 class="mt-12 text-3xl pb-6">
-					Siglar Development AS
-				</h2>
+				<A
+					href="https://vedvikdesign.no/"
+					target="_blank"
+					class="mt-6 text-3xl inline-block"
+				>
+					vedvikdesign.no
+				</A>
 				<p class="mb-11 mt-6">
-					Ta kontakt for nærmere samarbeid.
+					3D INSTALLASJONER / EFFEKTER – DEKORMALING – ILLUSTRASJONER
 				</p>
 				<address class="mb-12">
 					<label for="">
