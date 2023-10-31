@@ -1,15 +1,8 @@
 <template>
 	<div
 		class="border-t-4 w-full"
-		style="border-color:#e89292"
+		style="border-color:#e89292;height:54px"
 	>
-		<ProfileMenu
-			:dark="darkmode"
-			:breakpoint="640"
-			style="height:50px"
-			class="max-w-screen-2xl mx-auto"
-		>
-		</ProfileMenu>
 	</div>
 	<div
 		class="border-t-2 border-b sticky top-0 z-30"
@@ -134,13 +127,11 @@
 <script>
 	import SideMenu from '@/vueplay/SideMenu.vue';
 	import RightMenu from '@/vueplay/RightMenu.vue';
-	import ProfileMenu from '@/vueplay/ProfileMenu.vue';
 	import TopMenu from '@/vueplay/TopMenu.vue';
 	export default {
 		components: {
 			RightMenu: RightMenu,
 			SideMenu: SideMenu,
-			ProfileMenu: ProfileMenu,
 			TopMenu: TopMenu
 		},
 		data: () => ({
