@@ -14,19 +14,16 @@
 			@darkmode="darkmode=$event"
 			:breakpoint="640"
 			style="height:120px"
+			:border="'#00414C'"
 		>
-			<template v-slot:logo=""><img
-					src="@/assets/logo.png"
-					class="py-4"
-					:style="{
+			<template v-slot:logo=""><router-link to="/"><img
+						src="@/assets/logo.png"
+						class="ml-4 2xl:ml-0 py-4"
+						:style="{
  filter: darkmode ? 'invert(100%) hue-rotate(180deg)' : ''
 }"
-				/> </template>
-			<li :active="$route.path === '/'">
-				<router-link to="/">
-					Hjem
-				</router-link>
-			</li>
+						style="width:216px"
+					/></router-link> </template>
 			<li :active="$route.path.includes('/design')">
 				<router-link to="/design">
 					Design

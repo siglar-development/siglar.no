@@ -1,11 +1,19 @@
 <template>
-	<div class="bg-slate-50 py-6">
-		<header class="mx-auto max-w-screen-md">
+	<div
+		class="px-8 py-6"
+		:class="{
+'bg-slate-50': !darkmode,
+'bg-stone-700': darkmode,
+'text-slate-900': !darkmode,
+'text-slate-50': darkmode
+}"
+	>
+		<header class="max-w-screen-sm mx-auto">
 			<h1 class="text-6xl mt-12 mb-6">
 				Kontakt
 			</h1>
 		</header>
-		<main class="mx-auto max-w-screen-md">
+		<main class="max-w-screen-sm mx-auto">
 			<section
 				style="margin:auto"
 				class="container"
@@ -37,6 +45,7 @@
 </template>
 <script>
 	export default {
+		props: ['darkmode'],
 		components: {}
 	};
 
