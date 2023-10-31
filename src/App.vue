@@ -66,40 +66,7 @@
 		class="max-w-screen-2xl mx-auto max-w-screen sm:flex-row flex-col w-full relative flex"
 		style="position:relative"
 	>
-		<SideMenu
-			class="order-1 sticky sm:w-full top-0 sm:inline-flex"
-			:dark="darkmode"
-			:breakpoint="640"
-		>
-			<li :active="$route.path === '/'">
-				<router-link to="/">
-					Home
-				</router-link>
-			</li>
-			<li :active="$route.path.includes('/more')">
-				<span>
-					More
-				</span>
-				<ul>
-					<li>List item 1</li>
-					<li :active="$route.path.includes('/more/secret')">
-						List item 2
-						<ul>
-							<li :active="$route.path.includes('/more/secret')">
-								<router-link to="/more/secret">
-									Secret Content
-								</router-link>
-							</li>
-							<li>
-								List item 2
-							</li>
-							<li>List item 3</li>
-						</ul>
-					</li>
-					<li>List item 3</li>
-				</ul>
-			</li>
-		</SideMenu><router-view
+		<router-view
 			class="overflow-auto shadow-slate-200 sm:order-2 grow order-3 main-view"
 			style="min-height:calc(100vh - 377px)"
 			:darkmode="darkmode"
@@ -116,13 +83,11 @@
 	</footer>
 </template>
 <script>
-	import SideMenu from '@/vueplay/SideMenu.vue';
 	import RightMenu from '@/vueplay/RightMenu.vue';
 	import TopMenu from '@/vueplay/TopMenu.vue';
 	export default {
 		components: {
 			RightMenu: RightMenu,
-			SideMenu: SideMenu,
 			TopMenu: TopMenu
 		},
 		data: () => ({
