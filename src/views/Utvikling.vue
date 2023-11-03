@@ -2,8 +2,6 @@
 	<div
 		class="px-4 py-6"
 		:class="{
-'bg-slate-50': !darkmode,
-'bg-stone-700': darkmode,
 'text-slate-900': !darkmode,
 'text-slate-50': darkmode
 }"

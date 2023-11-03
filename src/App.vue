@@ -15,6 +15,8 @@
 			:breakpoint="640"
 			style="height:120px"
 			:border="'#00414C'"
+			:background="'white'"
+			:hover="'rgb(248, 248, 248)'"
 		>
 			<template v-slot:logo=""><router-link to="/"><img
 						src="@/assets/logo.png"
@@ -58,11 +60,13 @@
 	</div>
 	<footer
 		class="inline-flex p-6 w-full"
-		:style="{ 'background-color': darkmode ? 'rgba(25,25,25,1)' : 'rgba(170,180,190,1)', 'color': darkmode ? '#ccc' : '#444', 'box-shadow': darkmode ? '0 50vh 0 50vh rgba(75,75,75,1)' : '0 50vh 0 50vh rgba(240,240,240,1)' }"
+		:style="{
+'background-color': darkmode ? 'rgb(25,25,25)' : 'rgb(250,250,250)',
+'color': darkmode ? '#ccc' : '#444', 'box-shadow': darkmode ? '0 50vh 0 50vh rgba(75,75,75,1)' : '0 50vh 0 50vh rgba(240,240,240,1)' }"
 		style="height:200px"
 	>
 		<div class="max-w-screen-2xl w-full mx-auto ">
-			<address class="not-italic mb-12 mx-auto text-center">
+			<address class="not-italic mt-6 mb-12 mx-auto text-center">
 				<span class="block">
 					Org. nr. 912000621
 				</span><label for="">
@@ -96,17 +100,13 @@
 		}),
 		watch: {
 			darkmode(darkmode) {
-				document.body.style.backgroundColor = darkmode ? '#4B4B4B' : 'rgba(240,240,240,1)';
+				document.body.style.backgroundColor = darkmode ? '#4B4B4B' : '#fff';
 			}
 		}
 	};
 
 </script>
 <style>
-	body {
-		background-color: rgba(240, 240, 240, 1);
-	}
-
 	@media only screen and (max-width: 640px) {
 		.main-view {
 			min-height: calc(100vh - 360px) !important;
