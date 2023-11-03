@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="px-8 py-6"
+		class="px-4 py-6"
 		:class="{
 'bg-slate-50': !darkmode,
 'bg-stone-700': darkmode,
@@ -9,7 +9,7 @@
 }"
 	>
 		<header class="max-w-screen-sm mx-auto">
-			<h1 class="text-6xl mt-12 mb-6">
+			<h1 class="text-6xl mt-12">
 				Økonomi
 			</h1>
 		</header>
@@ -18,27 +18,9 @@
 				style="margin:auto"
 				class="container"
 			>
-				<h2 class="mt-12 text-3xl pb-6">
-					Siglar Development AS
-				</h2>
-				<p class="mb-11 mt-6">
-					Ta kontakt for nærmere samarbeid.
+				<p class="mt-8">
+					Konsulent tjenester innenfor regnskap og økonomi.
 				</p>
-				<address class="mb-12">
-					<label for="">
-						Krabberødveien 47, 3960 Stathelle
-					</label><br /><a
-						href="mailto: kontakt@siglar.no"
-						target="_blank"
-					>
-						kontakt@siglar.no
-					</a><br /><a
-						href="tel: +47 906 10 570"
-						target="_blank"
-					>
-						+47 906 10 570
-					</a>
-				</address>
 			</section>
 		</main>
 	</div>

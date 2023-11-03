@@ -18,12 +18,17 @@
 		>
 			<template v-slot:logo=""><router-link to="/"><img
 						src="@/assets/logo.png"
-						class="ml-4 2xl:ml-0 py-4"
+						class="pr-4 ml-5 2xl:ml-0 py-4"
 						:style="{
  filter: darkmode ? 'invert(100%) hue-rotate(180deg)' : ''
 }"
-						style="width:216px"
+						style="width:160px"
 					/></router-link> </template>
+			<li :active="$route.path.includes('/okonomi')">
+				<router-link to="/okonomi">
+					Økonomi
+				</router-link>
+			</li>
 			<li :active="$route.path.includes('/design')">
 				<router-link to="/design">
 					Design
@@ -32,11 +37,6 @@
 			<li :active="$route.path.includes('/utvikling')">
 				<router-link to="/utvikling">
 					Utvikling
-				</router-link>
-			</li>
-			<li :active="$route.path.includes('/okonomi')">
-				<router-link to="/okonomi">
-					Økonomi
 				</router-link>
 			</li>
 			<li :active="$route.path === '/'">
@@ -62,7 +62,7 @@
 		style="height:200px"
 	>
 		<div class="max-w-screen-2xl w-full mx-auto ">
-			<address class="mb-12 mx-auto text-center">
+			<address class="not-italic mb-12 mx-auto text-center">
 				<span class="block">
 					Org. nr. 912000621
 				</span><label for="">

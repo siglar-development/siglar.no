@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="px-8 py-6"
+		class="px-4 py-6"
 		:class="{
 'bg-slate-50': !darkmode,
 'bg-stone-700': darkmode,
@@ -9,41 +9,23 @@
 }"
 	>
 		<header class="max-w-screen-sm mx-auto">
-			<h1 class="text-6xl mt-12 mb-6">
+			<h1 class="text-6xl mt-12">
 				Design
 			</h1>
 		</header>
 		<main class="max-w-screen-sm mx-auto">
-			<section
-				style="margin:auto"
-				class="container"
-			>
-				<A
-					href="https://vedvikdesign.no/"
-					target="_blank"
-					class="mt-6 text-3xl inline-block"
-				>
-					vedvikdesign.no
-				</A>
-				<p class="mb-11 mt-6">
-					3D INSTALLASJONER / EFFEKTER – DEKORMALING – ILLUSTRASJONER
+			<section class="container">
+				<p class="mt-8 mb-2">
+					3D installasjoner, effekter, dekormaling og illustrasjoner.
 				</p>
-				<address class="mb-12">
-					<label for="">
-						Krabberødveien 47, 3960 Stathelle
-					</label><br /><a
-						href="mailto: kontakt@siglar.no"
-						target="_blank"
-					>
-						kontakt@siglar.no
-					</a><br /><a
-						href="tel: +47 906 10 570"
-						target="_blank"
-					>
-						+47 906 10 570
-					</a>
-				</address>
-			</section>
+			</section><span>
+				Se mer på
+			</span><a
+				href="https://vedvikdesign.no"
+				target="_blank"
+			>
+				vedvikdesign.no
+			</a>
 		</main>
 	</div>
 </template>
