@@ -13,16 +13,22 @@
 		</header>
 		<main class="max-w-screen-sm">
 			<section class="mt-8 container">
-				<Accordion title="Konsulent tjenester innenfor utvikling av programvare og nettsider.">
-					<li>
-						Software as a Service
-					</li>
-					<li>
-						Nettbutikker
-					</li>
-					<li>
-						Informative nettsider
-					</li>
+				<Accordion
+					title="Konsulent tjenester innenfor utvikling av programvare og nettsider."
+					class="text-slate-900"
+					:open="true"
+				>
+					<ul class="list-disc ml-4">
+						<li>
+							Software as a Service
+						</li>
+						<li>
+							Nettbutikker
+						</li>
+						<li>
+							Informative nettsider
+						</li>
+					</ul>
 				</Accordion>
 			</section>
 		</main>

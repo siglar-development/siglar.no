@@ -13,24 +13,29 @@
 		</header>
 		<main class="max-w-screen-sm">
 			<section class="container">
-				<p class="mt-8 mb-2">
-					3D installasjoner, effekter, dekormaling og illustrasjoner.
-				</p>
-			</section><span>
-				Se mer på
-			</span><a
-				href="https://vedvikdesign.no"
-				target="_blank"
-			>
-				vedvikdesign.no
-			</a>
+				<Accordion
+					title="3D installasjoner, effekter, dekormaling og illustrasjoner."
+					class="text-slate-900 mt-8"
+					:open="true"
+				><span>
+						Se mer på
+					</span><a
+						href="https://vedvikdesign.no"
+						target="_blank"
+					>
+						vedvikdesign.no
+					</a> </Accordion>
+			</section>
 		</main>
 	</div>
 </template>
 <script>
+	import Accordion from '@/vueplay/Accordion.vue';
 	export default {
 		props: ['darkmode'],
-		components: {}
+		components: {
+			Accordion: Accordion
+		}
 	};
 
 </script>
