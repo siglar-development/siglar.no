@@ -20,7 +20,7 @@
 		>
 			<template v-slot:logo=""><router-link to="/"><img
 						src="@/assets/logo.png"
-						class="pr-4 ml-5 2xl:ml-0 py-4"
+						class="pr-4 ml-5 py-4"
 						:style="{
  filter: darkmode ? 'invert(100%) hue-rotate(180deg)' : ''
 }"

@@ -6,12 +6,12 @@
 'text-slate-50': darkmode
 }"
 	>
-		<header class="max-w-screen-sm mx-auto">
+		<header class="max-w-screen-sm">
 			<h1 class="text-6xl mt-12">
 				Design
 			</h1>
 		</header>
-		<main class="max-w-screen-sm mx-auto">
+		<main class="max-w-screen-sm">
 			<section class="container">
 				<p class="mt-8 mb-2">
 					3D installasjoner, effekter, dekormaling og illustrasjoner.

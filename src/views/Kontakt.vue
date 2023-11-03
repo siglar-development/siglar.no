@@ -6,12 +6,12 @@
 'text-slate-50': darkmode
 }"
 	>
-		<header class="max-w-screen-sm mx-auto">
+		<header class="max-w-screen-sm">
 			<h1 class="text-6xl mt-12">
 				Kontakt
 			</h1>
 		</header>
-		<main class="max-w-screen-sm mx-auto">
+		<main class="max-w-screen-sm">
 			<section
 				style="margin:auto"
 				class="container"
