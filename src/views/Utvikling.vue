@@ -12,18 +12,29 @@
 			</h1>
 		</header>
 		<main class="max-w-screen-sm">
-			<section class="container">
-				<p class="mt-8">
-					Konsulent tjenester innenfor utvikling av programvare og nettsider.
-				</p>
+			<section class="mt-8 container">
+				<Accordion title="Konsulent tjenester innenfor utvikling av programvare og nettsider.">
+					<li>
+						Software as a Service
+					</li>
+					<li>
+						Nettbutikker
+					</li>
+					<li>
+						Informative nettsider
+					</li>
+				</Accordion>
 			</section>
 		</main>
 	</div>
 </template>
 <script>
+	import Accordion from '@/vueplay/Accordion.vue';
 	export default {
 		props: ['darkmode'],
-		components: {}
+		components: {
+			Accordion: Accordion
+		}
 	};
 
 </script>
