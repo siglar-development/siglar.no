@@ -9,7 +9,7 @@
 		:style="'border-color:' + (darkmode ? '#555' : '')"
 	>
 		<TopMenu
-			class="max-w-screen-2xl mx-auto"
+			class="max-w-screen-xl mx-auto"
 			:dark="darkmode"
 			@darkmode="darkmode=$event"
 			:breakpoint="640"
@@ -49,7 +49,7 @@
 		</TopMenu>
 	</div>
 	<div
-		class="max-w-screen-2xl mx-auto sm:flex-row flex-col w-full relative flex"
+		class="max-w-screen-xl mx-auto sm:flex-row flex-col w-full relative flex"
 		style="position:relative"
 	>
 		<router-view
@@ -65,7 +65,7 @@
 'color': darkmode ? '#ccc' : '#444', 'box-shadow': darkmode ? '0 50vh 0 50vh rgba(75,75,75,1)' : '0 50vh 0 50vh rgba(240,240,240,1)' }"
 		style="height:200px"
 	>
-		<div class="max-w-screen-2xl w-full mx-auto ">
+		<div class="max-w-screen-xl w-full mx-auto ">
 			<address class="not-italic mt-6 mb-12 mx-auto text-center">
 				<span class="block">
 					Org. nr. 912000621
