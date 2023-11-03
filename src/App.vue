@@ -68,18 +68,13 @@
 		<div class="max-w-screen-xl w-full mx-auto ">
 			<address class="not-italic mt-6 mb-12 mx-auto text-center">
 				<a
-					href="tel: +47 906 10 570"
-					target="_blank"
-				>
-					+47 906 10 570
-				</a><br /><label for="">
-					Krabberødveien 47, 3960 Stathelle
-				</label><a
 					href="mailto: kontakt@siglar.no"
 					target="_blank"
 				>
 					kontakt@siglar.no
-				</a><span class="block">
+				</a><br /><br /><label for="">
+					Krabberødveien 47, 3960 Stathelle
+				</label><span class="block">
 					Org. nr. 912000621
 				</span>
 			</address>
