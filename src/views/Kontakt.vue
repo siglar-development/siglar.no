@@ -9,7 +9,7 @@
 		<header class="max-w-screen-xl">
 			<img
 				src="@/assets/ship.webp"
-				class="drop-shadow contrast-125 shadow-lg rounded w-full"
+				class="drop-shadow shadow-lg rounded w-full"
 			/>
 			<h1 class="text-6xl mt-12">
 				Kontakt
