@@ -8,8 +8,8 @@
 	>
 		<header class="max-w-screen-xl">
 			<img
-				src="@/assets/ship.webp"
-				class="drop-shadow shadow-lg rounded w-full"
+				src="@/assets/siglar.webp"
+				class="drop-shadow shadow-lg w-full"
 			/>
 			<h1 class="text-6xl mt-12">
 				Kontakt
