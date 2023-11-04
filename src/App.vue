@@ -1,8 +1,11 @@
 <template>
 	<div
 		class="border-t-4 border-t-2 border-b sticky top-0 z-30"
-		:style="'border-color:' + (darkmode ? '#555' : '')"
-		style="border-color:#00414C;"
+		:style="{
+'border-color': (darkmode ? '#555' : ''),
+'border-top-color': (darkmode ? '#555' : '#00414C')
+}"
+		style="border-top-color:#00414C;"
 	>
 		<TopMenu
 			class="max-w-screen-xl mx-auto"
