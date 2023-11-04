@@ -1,12 +1,8 @@
 <template>
 	<div
-		class="border-t-4 w-full"
-		style="border-color:#00414C;height:54px"
-	>
-	</div>
-	<div
-		class="border-t-2 border-b sticky top-0 z-30"
+		class="border-t-4 border-t-2 border-b sticky top-0 z-30"
 		:style="'border-color:' + (darkmode ? '#555' : '')"
+		style="border-color:#00414C;"
 	>
 		<TopMenu
 			class="max-w-screen-xl mx-auto"
@@ -54,7 +50,7 @@
 	>
 		<router-view
 			class="overflow-auto shadow-slate-200 sm:order-2 grow order-3 main-view"
-			style="min-height:calc(100vh - 377px)"
+			style="min-height:calc(100vh - 325px)"
 			:darkmode="darkmode"
 		/>
 	</div>
