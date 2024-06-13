@@ -21,7 +21,7 @@
 				class="container"
 			>
 				<p class="mt-8 mb-2">
-					Ta kontakt for en hyggelig prat.
+					Ta kontakt for en hyggelig prat med oss.
 				</p>
 				<address class="not-italic mb-12">
 					<label for="">
