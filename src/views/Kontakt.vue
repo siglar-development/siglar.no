@@ -21,7 +21,7 @@
 				class="container"
 			>
 				<p class="mt-8 mb-2">
-					Ta kontakt for nærmere samarbeid.
+					Ta kontakt med oss for nærmere samarbeid.
 				</p>
 				<address class="not-italic mb-12">
 					<label for="">
