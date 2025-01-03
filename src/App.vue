@@ -66,7 +66,9 @@
 	>
 		<div class="max-w-screen-xl w-full mx-auto ">
 			<address class="not-italic mt-6 mb-12 mx-auto text-center">
-				<a
+				<label for="">
+					Siglar Development AS
+				</label><br /><a
 					href="mailto: kontakt@siglar.no"
 					target="_blank"
 				>
